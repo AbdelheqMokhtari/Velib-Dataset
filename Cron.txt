@@ -1,0 +1,9 @@
+# Exécute le script Shell toutes les 5 minutes du 1er au 10 novembre
+*/5 * 1-10 11 * /path/to/velib_data.sh
+
+# Exécute le script R toutes les 5 minutes du 1er au 10 novembre
+*/5 * 1-10 11 * Rscript /path/to/velib_data.R
+
+# Exécute le script Python toutes les 5 minutes du 1er au 10 novembre
+*/5 * 1-10 11 * python3 /path/to/velib_data.py
+
